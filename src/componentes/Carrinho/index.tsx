@@ -1,9 +1,9 @@
 import Modal from 'react-bootstrap/Modal';
-import { BtnCarrinho, BtnComprar, ButtonLixeira, ButtonMaisEMenos, ButtonsCarrinho, Carrinho,  ConatinerCarrinhoProdutos,  ContainerButtons,  ContainerTotalItens,  ImgETitleProduct,  InfosProdutosCarrinho,  LixeiraProduto,  MaisIcon,  ModalContainer, NumeroCarrinho, NumeroQuantidadeCarrinho } from './styles';
-import { useContext, useEffect, useState } from 'react';
+import { BtnCarrinho, BtnComprar, ButtonLixeira,  ButtonsCarrinho, Carrinho,  ConatinerCarrinhoProdutos,  ContainerButtons,  ContainerTotalItens,  ImgETitleProduct,  InfosProdutosCarrinho,  LixeiraProduto,    ModalContainer, NumeroCarrinho } from './styles';
+import { useContext,  useState } from 'react';
 
-import ProductImg from '../../assets/produto.svg'
-import { ArrowFatRight, CaretRight, Minus, Plus } from '@phosphor-icons/react';
+
+import {  CaretRight } from '@phosphor-icons/react';
 import { ApiContext } from '../../context/MyContexts';
 import { fromatCurrency } from '../../utils/formatCurrency';
 

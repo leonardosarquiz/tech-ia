@@ -1,7 +1,7 @@
 import { ContainerProducts, ContainerProductsa, Product,  } from "./styles";
-import Produto from '../../assets/produto.svg'
-import { useContext, useEffect, useState } from "react";
-import { FetchProducts } from "../../api/FetchProducts";
+
+import { useContext } from "react";
+
 import { fromatCurrency } from "../../utils/formatCurrency";
 import { ApiContext } from "../../context/MyContexts";
 

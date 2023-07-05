@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useEffect, useRef, useState } from "react"
+import { ReactNode, createContext, useEffect,  useState } from "react"
 import { FetchProducts } from "../api/FetchProducts"
 
 interface ProductType {

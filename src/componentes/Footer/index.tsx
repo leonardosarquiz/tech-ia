@@ -1,7 +1,7 @@
 import { ContainerContatos, FooterContainer, FooterLeft, FooterRight, LinksContainer, RedeSocialContainer } from "./styles";
 import Logo from '../../assets/logo.svg'
 import { FacebookLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react";
-import { useEffect } from "react";
+
 
 
 export function Footer() {
