@@ -12,7 +12,7 @@ background: #122743;
 position: fixed;
 z-index: 3;
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
 height: 2.6rem;
 }
 `;
@@ -32,14 +32,14 @@ button {
   border: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
 height: 2.6rem;
 margin-left: 1.56rem;
 margin-right: 1.56rem;
 
 img {
-  width: 77px;
-  height: 18px;
+  width: 4.81rem;
+  height: 1.125rem;
 }
 }
 
@@ -79,7 +79,7 @@ export const NumeroCarrinho = styled.span`
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 11px;
+  font-size: 0.6875rem;
   position: absolute;
   right: -3px;
   top: 0px;

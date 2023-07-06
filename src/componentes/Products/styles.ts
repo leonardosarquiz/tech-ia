@@ -17,8 +17,8 @@ width: 74.2rem;
  grid-template-columns: repeat(3, 1fr);
  gap: 2.8rem;
 
- @media (max-width: 450px) {
-  gap: 20px;
+ @media (max-width: 750px) {
+  gap: 1.25rem;
   grid-template-columns: repeat(2, 1fr);
  }
 
@@ -93,29 +93,29 @@ background: #204376;
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   width:8.1rem;
   height: 10.2rem;
 
   img {
-    width: 82px;
-    height: 89px;
+    width: 5.125rem;
+    height: 5.5625rem;
   }
   h4 {
-    font-size: 8px;
-    padding-left:18px;
+    font-size: 0.5rem;
+    padding-left:1.125rem;
   padding-right:5px;
   padding-top: 5px;
   }
   p {
-    font-size: 10px;
-    left: 20px;
-    bottom: 17px;
+    font-size: 0.625rem;
+    left: 1.25rem;
+    bottom: 1rem;
   }
   button {
-    width: 111px;
-    height: 23px;
-    font-size: 8px;
+    width: 6.93rem;
+    height: 1.43rem;
+    font-size: 0.5rem;
     bottom: 7px;
     left: 9px;
   }

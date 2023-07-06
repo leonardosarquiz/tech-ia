@@ -15,50 +15,54 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 
-@media (max-width: 450px) {
-  width: 390px;
-height: 330px;
+@media (max-width: 750px) {
+  width: 24.37rem;
+height: 20.62rem;
 }
 `;
 
 export const ImgBanner1 = styled.img`
-object-fit: cover;
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 height: 760px;
-object-position: top;
 border-radius: 5px;
 background: url(${Image1});
+margin: 0 auto;
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   background: url(${Mobile1});
-height: 330px;
+height: 20.62rem;
 }
 
 `
 export const ImgBanner2 = styled.img`
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 object-fit: cover;
-height: 760px;
-object-position: top;
+height: 47.5rem;
 border-radius: 5px;
 background: url(${Image2});
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   background: url(${Mobile2});
-height: 330px;
+height: 20.62rem;
 }
 
 `
 
 export const ImgBanner3 = styled.img`
 object-fit: cover;
-height: 760px;
+height: 47.5rem;
 object-position: top;
 border-radius: 5px;
 background: url(${Image3});
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   
   background: url(${Mobile3});
-height: 330px;
+height: 20.62rem;
 }
 
 `

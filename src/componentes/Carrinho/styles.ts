@@ -55,8 +55,8 @@ export const NumeroCarrinho = styled.span`
 export const ModalContainer = styled(Modal)`
 
 .modal-dialog {
-    margin-right: 20px;
-    margin-top: 60px;
+    margin-right: 1.25rem;
+    margin-top: 3.75rem;
    
   }
 
@@ -79,10 +79,10 @@ export const ModalContainer = styled(Modal)`
   padding-top: 3.6rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   .modal-dialog {
-    margin-right: 10px;
-    margin-top: 40px;
+    margin-right: 0.625rem;
+    margin-top: 2.5rem;
    
   }
 }
@@ -105,6 +105,10 @@ img {
   height: 5.6rem;
   width: 6rem;
   padding-right: 0.9rem;
+}
+
+@media (max-width: 750px) {
+  padding-left: 0.7rem;
 }
 
 `;
@@ -132,6 +136,18 @@ div {
   display: flex;
 }
 
+
+@media (max-width: 750px) {
+  span {
+    font-size: 1rem;
+  }
+
+  strong {
+    font-size: 0.9rem;
+  }
+}
+
+
 `;
 
 export const ButtonsCarrinho = styled.div`
@@ -153,7 +169,7 @@ padding-top: 1.31rem;
 
 export const ButtonLixeira = styled.button`
 position: absolute;
-right: 51px;
+right: 3.18rem;
 border: none;
 background: transparent;
 `;

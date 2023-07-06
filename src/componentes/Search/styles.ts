@@ -7,9 +7,9 @@ display: flex;
 justify-content: center;
 background-color: #122743;
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   padding-top: 1rem;
-  padding-bottom: 42px;
+  padding-bottom: 2.625rem;
 }
 
 `;
@@ -42,12 +42,12 @@ letter-spacing: 0.2px;
   }
 
 
-  @media (max-width: 450px) {
+  @media (max-width: 750px) {
     width: 305px;
     height: 35px;
 
     &::placeholder {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
   }
 

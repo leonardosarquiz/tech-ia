@@ -6,8 +6,8 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 margin-top: 10.8rem;
-@media (max-width: 450px) {
-  margin-top: 78px;
+@media (max-width: 750px) {
+  margin-top: 4.875rem;
 }
 
 
@@ -21,12 +21,12 @@ flex-direction: column;
 padding-left: 2.6rem;
 padding-bottom: 3.5rem;
 
-@media (max-width: 450px) {
-  padding-left: 28px;
+@media (max-width: 750px) {
+  padding-left: 1.75rem;
 
   img{
-    width: 129px;
-    height: 31px;
+    width: 8rem;
+    height: 1.93rem;
   }
 }
 `;
@@ -53,9 +53,9 @@ a {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   a, p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 `;
@@ -63,9 +63,9 @@ a {
 export const FooterRight = styled.div`
   margin-right: 8rem;
   display: flex;
-  @media (max-width: 450px) {
-    margin-right: 41px;
-    margin-top: 10px;
+  @media (max-width: 750px) {
+    margin-right: 2.56rem;
+    margin-top: 0.625rem;
   }
 `;
 
@@ -97,15 +97,15 @@ button + button {
   padding-top: 1rem;
 }
 
-@media (max-width: 450px) {
-  padding-right: 27px;
+@media (max-width: 750px) {
+  padding-right: 1.687rem;
 
 
   p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   button {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
 
@@ -138,9 +138,9 @@ a + a {
   padding-top: 0.4rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 `;
