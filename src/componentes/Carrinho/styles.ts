@@ -109,6 +109,7 @@ img {
 
 @media (max-width: 750px) {
   padding-left: 0.7rem;
+  padding-top: 3rem;
 }
 
 `;

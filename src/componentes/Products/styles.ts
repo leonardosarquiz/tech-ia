@@ -113,11 +113,11 @@ background: #204376;
     bottom: 1rem;
   }
   button {
-    width: 6.93rem;
-    height: 1.43rem;
+    width: 6.0rem;
+    height: 1.4rem;
     font-size: 0.5rem;
     bottom: 7px;
-    left: 9px;
+    left: 17px;
   }
 }
 
